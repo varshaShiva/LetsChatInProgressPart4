@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main2.css">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>Lets Chat Main</title>
+</head>
+<body style="background-color: #4169e1;">
+    
+
+    <button type="button" class="form" onclick="logOutBtn()" id="logOutBtn">LOG OUT</button>
+    <center><br>
+    <h3 id="username"></h3><br>
+		<div class="form-group input_div_room_page">
+			<label id="add_room_label">#ADD ROOM:</label><br><br>
+				<input class="form-control" type="text" id="room_name" placeholder="type room name here">
+		</div>
+		<button type="button" class="btn btn-success" id="btn_addroom" onclick="addRoom()">Add Room</button>
+		<h3 class="color_white">#TRENDING ROOMS</h3><br>
+	<div id="output"></div>
+</center>
+<script src="main2.js"></script>
+</body>
+</html
